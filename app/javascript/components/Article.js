@@ -27,7 +27,7 @@ class Article extends React.Component {
 
   componentDidMount() {
      var self = this;
-     setInterval(function() {self.forceUpdate()}, 5000);
+     setInterval(function() {self.forceUpdate()}, 1000);
   }
 
   componentWillUnmout() {
